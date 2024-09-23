@@ -18,9 +18,9 @@ v = combined_names.count("v")
 e = combined_names.count("e")
 
 love = l + o + v + e
+#Add the the number times the letters appeared in the two words and converted back to integer
 true_love = int(str(true) + str(love))
 
-print(true_love)
 
 if (true_love < 10) or (true_love > 90):
     print(f"Your Love score is {true_love}. You are like coke and mento together")

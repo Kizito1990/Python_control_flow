@@ -17,6 +17,7 @@ if height >= 120:
 
     photo_taken = input("Do you want your phot taken: Y/N: ").lower()
     if photo_taken == "Y":
+
         bill +=bill
 
     print(f"Total bill is {bill}")
